@@ -18,15 +18,21 @@ public class StudentConfig {
     CommandLineRunner commandLineRunner(StudentRepository studentRepository){
         return args->{
            Student std1 = new Student(
-                    "Fatma",
-                    "fatma@gmail.com",
+                    "student1",
+                    "student1@gmail.com",
                     LocalDate.of(1999,  Month.JUNE ,6)
             );
 
             Student std2 = new Student(
-                    "Sarah",
-                    "Saraah@gmail.com",
-                    LocalDate.of(2000, Month.JANUARY,21)
+                    "student2",
+                    "student2@gmail.com",
+                    LocalDate.of(1994, Month.JANUARY,21)
+            );
+
+            Student std3 = new Student(
+                    "student3",
+                    "student3@gmail.com",
+                    LocalDate.of(2004, Month.AUGUST,21)
             );
 
             studentRepository.saveAll(
