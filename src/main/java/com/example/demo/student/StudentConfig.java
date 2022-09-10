@@ -36,7 +36,7 @@ public class StudentConfig {
             );
 
             studentRepository.saveAll(
-                    List.of(std1,std2)
+                    List.of(std1,std2,std3)
             );
         };
     }
