@@ -8,7 +8,7 @@ GET http://localhost:8080/api/v1/student
 
 
 ### Adding new student  
-POST http://localhost:8080/api/v1/studen  
+POST http://localhost:8080/api/v1/student  
 Content-Type: application/json  
 {  
  "name" : "teststudent2",  
